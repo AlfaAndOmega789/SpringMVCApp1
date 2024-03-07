@@ -11,9 +11,7 @@
   <component name="ChangeListManager">
     <list default="true" id="55144c4a-3612-42a0-b72d-e9c327e2b2fc" name="Changes" comment="init commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kovalia/springcourse/config/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/kovalia/springcourse/config/SpringConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kovalia/springcourse/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/kovalia/springcourse/dao/PersonDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kovalia/springcourse/models/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/kovalia/springcourse/models/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -295,6 +293,7 @@
       <workItem from="1708962645435" duration="5997000" />
       <workItem from="1709221098492" duration="4072000" />
       <workItem from="1709227848876" duration="1111000" />
+      <workItem from="1709712854359" duration="1046000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1707411629756</created>
