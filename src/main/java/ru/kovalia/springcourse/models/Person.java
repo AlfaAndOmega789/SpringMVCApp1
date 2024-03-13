@@ -20,14 +20,15 @@ public class Person {
     private String email;
 
 
-    public Person(int id, String name,  int age, String email) {
+    public Person(int id, String name, int age, String email) {
         this.id = id;
         this.name = name;
-        this.email = email;
         this.age = age;
+        this.email = email;
     }
 
-    public Person(){}
+    public Person() {
+    }
 
     public int getId() {
         return id;
