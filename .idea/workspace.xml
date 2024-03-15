@@ -9,11 +9,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55144c4a-3612-42a0-b72d-e9c327e2b2fc" name="Changes" comment="JdbcTemplate">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/database.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/database.properties.origin" afterDir="false" />
+    <list default="true" id="55144c4a-3612-42a0-b72d-e9c327e2b2fc" name="Changes" comment="add class BatchController(create some method: withBatch, withoutBatch) and modified class PersonDAO">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/kovalia/springcourse/util/PeronValidator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kovalia/springcourse/config/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/kovalia/springcourse/config/SpringConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kovalia/springcourse/controllers/PeopleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/kovalia/springcourse/controllers/PeopleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kovalia/springcourse/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/kovalia/springcourse/dao/PersonDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/batch/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/batch/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +63,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Projects&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Projects/src/main/webapp/WEB-INF/views/batch&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -81,6 +82,11 @@
     ]
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Projects\src\main\webapp\WEB-INF\views\batch" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="SpringMVCApp1" />
@@ -299,7 +305,9 @@
       <workItem from="1709820801758" duration="7081000" />
       <workItem from="1710172571565" duration="1824000" />
       <workItem from="1710317161639" duration="2351000" />
-      <workItem from="1710319660562" duration="1516000" />
+      <workItem from="1710319660562" duration="10196000" />
+      <workItem from="1710397332891" duration="5317000" />
+      <workItem from="1710426480184" duration="13273000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1707411629756</created>
@@ -403,7 +411,23 @@
       <option name="project" value="LOCAL" />
       <updated>1710319829294</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="add 2 file(database.properties and database.properties.origin) and field Environment in class SpringConfig">
+      <option name="closed" value="true" />
+      <created>1710321492093</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1710321492093</updated>
+    </task>
+    <task id="LOCAL-00016" summary="add class BatchController(create some method: withBatch, withoutBatch) and modified class PersonDAO">
+      <option name="closed" value="true" />
+      <created>1710334410257</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1710334410257</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -412,6 +436,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init commit" />
     <MESSAGE value="JdbcTemplate" />
-    <option name="LAST_COMMIT_MESSAGE" value="JdbcTemplate" />
+    <MESSAGE value="add 2 file(database.properties and database.properties.origin) and field Environment in class SpringConfig" />
+    <MESSAGE value="add class BatchController(create some method: withBatch, withoutBatch) and modified class PersonDAO" />
+    <option name="LAST_COMMIT_MESSAGE" value="add class BatchController(create some method: withBatch, withoutBatch) and modified class PersonDAO" />
   </component>
 </project>
