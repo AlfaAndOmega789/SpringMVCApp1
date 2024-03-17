@@ -9,12 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55144c4a-3612-42a0-b72d-e9c327e2b2fc" name="Changes" comment="add class BatchController(create some method: withBatch, withoutBatch) and modified class PersonDAO">
+    <list default="true" id="55144c4a-3612-42a0-b72d-e9c327e2b2fc" name="Changes" comment="add new field address in class Person and modified class PersonDao, file new.html and new.html&#10;&#10;Validation Pattern!">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/kovalia/springcourse/controllers/AdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/adminPage.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kovalia/springcourse/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/kovalia/springcourse/dao/PersonDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kovalia/springcourse/models/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/kovalia/springcourse/models/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/show.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -309,7 +308,7 @@
       <workItem from="1710397332891" duration="5317000" />
       <workItem from="1710426480184" duration="13273000" />
       <workItem from="1710619169630" duration="891000" />
-      <workItem from="1710621169264" duration="1684000" />
+      <workItem from="1710621169264" duration="7102000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1707411629756</created>
@@ -429,7 +428,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710334410257</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="add new field address in class Person and modified class PersonDao, file new.html and new.html&#10;&#10;Validation Pattern!">
+      <option name="closed" value="true" />
+      <created>1710622961128</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1710622961128</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -440,6 +447,7 @@
     <MESSAGE value="JdbcTemplate" />
     <MESSAGE value="add 2 file(database.properties and database.properties.origin) and field Environment in class SpringConfig" />
     <MESSAGE value="add class BatchController(create some method: withBatch, withoutBatch) and modified class PersonDAO" />
-    <option name="LAST_COMMIT_MESSAGE" value="add class BatchController(create some method: withBatch, withoutBatch) and modified class PersonDAO" />
+    <MESSAGE value="add new field address in class Person and modified class PersonDao, file new.html and new.html&#10;&#10;Validation Pattern!" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new field address in class Person and modified class PersonDao, file new.html and new.html&#10;&#10;Validation Pattern!" />
   </component>
 </project>
